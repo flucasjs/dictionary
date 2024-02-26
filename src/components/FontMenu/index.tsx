@@ -3,7 +3,7 @@ import Image from 'next/image';
 import downArrow from '../../assets/svg/icon-arrow-down.svg';
 import {FontContext} from '../../context/Font';
 import {FontContextType} from '../../interfaces';
-import useOutsideClick from '../hooks/useOutsideClick';
+import useOutsideClick from '@/hooks/useOutsideClick';
 import { REGISTERED_FONTS, DEFAULT_FONT } from '../../constants';
 
 export default function FontMenu() {
